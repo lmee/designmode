@@ -1,0 +1,10 @@
+package com.jieer;
+
+public abstract class Colleague {
+	
+	protected Mediator mediator;
+	
+	public Colleague(Mediator mediator){
+		this.mediator = mediator;
+	}
+}
